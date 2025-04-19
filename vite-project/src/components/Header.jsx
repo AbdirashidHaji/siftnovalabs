@@ -14,10 +14,10 @@ const Header = () => {
           
           <div className="hidden md:flex space-x-8">
             <Link to="/" className="text-dark hover:text-primary transition">Home</Link>
-            <Link to="/about" className="text-dark hover:text-primary transition">About</Link>
-            <Link to="/services" className="text-dark hover:text-primary transition">Services</Link>
-            <Link to="/projects" className="text-dark hover:text-primary transition">Projects</Link>
-            <Link to="/contact" className="text-dark hover:text-primary transition">Contact</Link>
+            <Link to="/" className="text-dark hover:text-primary transition">About</Link>
+            <Link to="/" className="text-dark hover:text-primary transition">Services</Link>
+            <Link to="/" className="text-dark hover:text-primary transition">Projects</Link>
+            <Link to="/" className="text-dark hover:text-primary transition">Contact</Link>
           </div>
           
           <button 
@@ -37,10 +37,10 @@ const Header = () => {
         {isOpen && (
           <div className="md:hidden mt-4 space-y-4 pb-4 animate-fadeIn">
             <Link to="/" className="block text-dark hover:text-primary transition">Home</Link>
-            <Link to="/about" className="block text-dark hover:text-primary transition">About</Link>
-            <Link to="/services" className="block text-dark hover:text-primary transition">Services</Link>
-            <Link to="/projects" className="block text-dark hover:text-primary transition">Projects</Link>
-            <Link to="/contact" className="block text-dark hover:text-primary transition">Contact</Link>
+            <Link to="/" className="block text-dark hover:text-primary transition">About</Link>
+            <Link to="/" className="block text-dark hover:text-primary transition">Services</Link>
+            <Link to="/" className="block text-dark hover:text-primary transition">Projects</Link>
+            <Link to="/" className="block text-dark hover:text-primary transition">Contact</Link>
           </div>
         )}
       </div>
