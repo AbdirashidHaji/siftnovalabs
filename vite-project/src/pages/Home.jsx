@@ -1,4 +1,8 @@
 import Hero from '../components/Hero';
+import About from './About';
+import Services from './Services';
+import Projects from './Projects';
+import Contact from './Contact';
 import React from 'react';
 
 const Home = () => {
@@ -70,6 +74,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <About/>
+      <Services />
+      <Projects />
+      <Contact />
     </div>
   );
 };

@@ -16,10 +16,10 @@ function App() {
         <main className="flex-grow animate-fadeIn">
           <Routes>
             
-            <Route path="/contact" element={<Contact />} />
+            {/* <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About />} /> */}
             <Route path="/" element={<Home />} />
             
           </Routes>
